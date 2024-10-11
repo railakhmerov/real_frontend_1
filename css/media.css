@@ -28,11 +28,14 @@
     .project-card-3 img{
         width: 100%;
     }
+    .services-card {
+        width: calc(50% - 30px);
+    }
 }
 
 @media (max-width: 1024px) {
     .container {
-        width: 924px;
+        width: 850px;
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
@@ -48,11 +51,33 @@
         font-size: 20px;
         line-height: 35px;
     }
+    .services-card {
+        width: calc(50% - 25px);
+    }
+    .services-card img {
+        height: 270px;
+    }
 }
-
+@media (max-width: 850px) {
+    .container {
+        width: 650px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .services-card {
+        width: calc(50% - 10px);
+    }
+    .services-card img {
+        height: 250px;
+    }
+    .services-card p {
+        font-size: 20px;
+    }
+}
 @media (max-width: 768px) {
     .container {
-        width: 668px;
+        width: 568px;
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
@@ -67,6 +92,9 @@
         width: 100%;
         font-size: 25px;
         line-height: 45px;
+    }
+    .services-card {
+        width: 100%;
     }
 }
 
@@ -84,10 +112,11 @@
         font-size: 35px;
     }
     .image-text {
+        width: 80%;
         bottom: 30px;
-        left: 30px;
-        font-size: 14px;
-        line-height: 25px;
+        left: 20px;
+        font-size: 20px;
+        line-height: 24px;
     }
     .beginning-title-image-text {
         height: 300px;
@@ -110,6 +139,12 @@
         font-size: 24px;
         line-height: 20px;
     }
+    .services-card p {
+        font-size: 25px;
+    }
+    .services-card img {
+        height: 280px;
+     }
 }
 @media (max-width: 480px) {
     .container {
@@ -127,9 +162,9 @@
     }
     .image-text {
         width: 80%;
-        bottom: 15px;
-        left: 15px;
-        font-size: 16px;
+        bottom: 30px;
+        left: 20px;
+        font-size: 18px;
         line-height: 20px;
     }
     .beginning-title-image-text {
@@ -167,7 +202,7 @@
     }
     .about-us-text p {
         width: 100%;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 35px;
     }
     .about-us-btn a {
@@ -189,14 +224,37 @@
         font-size: 20px;
         line-height: 18px;
     }
+    .services-card img {
+        height: 200px;
+    }
+    .services-card p {
+        font-size: 20px;
+    }
 }
 @media (max-width: 320px) {
+    .image-text {
+        width: 80%;
+        bottom: 25px;
+        left: 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about-us-text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
     .project-card-wrapper p {
-        font-size: 17px;
+        font-size: 18px;
     }
     .projects-btn a {
         padding: 30px 5px; 
         font-size: 18px;
         line-height: 16px;
+    }
+    .services-card img {
+        height: 150px;
+    }
+    .services-card p {
+        font-size: 18px;
     }
 }
