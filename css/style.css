@@ -19,7 +19,7 @@ body {
    justify-content: space-between;
    align-items: center;
 }
-.header__nav_links {}
+/* .header__nav_links {} */
 .header__nav_link {
    margin-right: 60px;
    font-size: 18px;

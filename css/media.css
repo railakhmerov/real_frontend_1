@@ -147,6 +147,9 @@
         font-size: 20px;
         line-height: 27.32px;
     }
+    .projects-btn a {
+        padding: 40px 40px; 
+    }
 }
 @media (max-width: 400px) {
     .container {
@@ -162,6 +165,16 @@
         font-size: 30px;
         line-height: 40px;
     }
+    .about-us-text p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .about-us-btn a {
+        padding: 15px 20px;
+        font-size: 18px;
+        line-height: 25px;
+    }
     .project-card-3 {
         margin-bottom: 60px;
     }
@@ -172,10 +185,18 @@
         font-size: 18px;
     }
     .projects-btn a {
+        padding: 30px 40px; 
         font-size: 20px;
         line-height: 18px;
     }
 }
 @media (max-width: 320px) {
-    
+    .project-card-wrapper p {
+        font-size: 17px;
+    }
+    .projects-btn a {
+        padding: 30px 5px; 
+        font-size: 18px;
+        line-height: 16px;
+    }
 }
