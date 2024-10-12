@@ -119,10 +119,10 @@ body {
    letter-spacing: -0.03em;
    color: #121212;
 }
-.project-card-1 {
+.project-card {
    margin-bottom: 90px;
 }
-.project-card-1 img {
+.project-card img {
    width: 100%;
    margin-bottom: 15px;
 }
@@ -138,18 +138,6 @@ body {
    line-height: 20.32px;
    letter-spacing: -0.03em;
    color: #AD1818;
-}
-.project-card-2 {
-   margin-bottom: 90px;
-}
-.project-card-2 img {
-   margin-bottom: 15px;
-}
-.project-card-3 {
-   margin-bottom: 90px;
-}
-.project-card-3 img {
-   margin-bottom: 15px; 
 }
 .projects-btn a {
    text-align: center;
@@ -174,10 +162,8 @@ body {
    background-color: #121212;
    padding-top: 150px;
    padding-bottom: 24px;
+   margin-bottom: 150px;
 }
-/* .services.container {
-   flex-wrap: wrap;
-} */
 .services-title {
    margin-bottom: 34px;
 }
@@ -189,12 +175,14 @@ body {
    color: #fff;
 }
 .services-card-wrapper {
+   margin-bottom: 150px;
    width: 100%;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
 }
 .services-card {
+   position: relative;
    width: calc(50% - 40px);
    margin-bottom: 85px;
 }
@@ -204,11 +192,66 @@ body {
    margin-bottom: 25px;
    aspect-ratio: 1 / 1;
 }
+.lable {
+   position: absolute;
+   top: 30px;
+   left: 30px;
+}
+.lable h3 {
+   padding: 5px 21px;
+   font-size: 22px;
+   color: #fff;
+   background-color: #AD1818;
+}
 .services-card p {
    font-size: 30px;
    line-height: 30.98px;
    letter-spacing: -0.8px;
    color: #fff;
+}
+.services__btn {
+   width: 100%;
+}
+.services__btn button {
+   width: 100%;
+   padding: 56px 0;
+   font-size: 30px;
+   color: #fff;
+   background-color: #AD1818;
+   border-radius: 5px;
+   border: none;
+}
+
+section.feedback {
+}
+.feedback-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+}
+.feedback__title {
+   margin-bottom: 30px;
+}
+.feedback__title h3 {
+   font-size: 18px;
+   text-transform: uppercase;
+}
+.feedback__row {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px;
+}
+.feedback__column {
+   display: flex;
+   flex-direction: column;
+   width: calc(50% - 20px);
+}
+.feedback__column h2 {
+   display: inline;
+   margin-bottom: 14px;
+   font-size: 45px;
+}
+.feedback__column p {
+   font-size: 22px;
 }
 
 section.project-example {
