@@ -230,6 +230,9 @@
         font-size: 20px;
         line-height: 27.32px;
     }
+    .main-projects {
+        margin-bottom: 80px;
+    }
     .project-card img {
         height: 200px;
     }
@@ -238,6 +241,15 @@
     }
     .lable h3 {
         font-size: 14px;
+    }
+    .services {
+        margin-bottom: 70px;
+    }
+    .services-card img {
+        height: 230px;
+    }
+    .services__btn button {
+        padding: 37px 0;
     }
 }
 @media (max-width: 400px) {
@@ -264,6 +276,12 @@
         font-size: 18px;
         line-height: 25px;
     }
+    .main-projects {
+        margin-bottom: 80px;
+    }
+    .services-card-wrapper {
+        margin-bottom: 60px;
+    }
     .project-card {
         margin-bottom: 60px;
     }
@@ -286,6 +304,9 @@
     }
     .services-card p {
         font-size: 20px;
+    }
+    .services__btn button {
+        font-size: 25px;
     }
 }
 @media (max-width: 320px) {
@@ -331,5 +352,9 @@
     }
     .services-card p {
         font-size: 18px;
+    }
+    .services__btn button {
+        padding: 25px 0;
+        font-size: 20px;
     }
 }
