@@ -273,6 +273,9 @@
     .project-card-wrapper a {
         font-size: 18px;
     }
+    .project-card img {
+        height: 180px;
+    }
     .projects-btn a {
         padding: 30px 40px; 
         font-size: 20px;
@@ -307,7 +310,7 @@
         font-size: 20px;
     }
     .project-card img {
-        height: 180px;
+        height: 150px;
     }
     .project-card-wrapper p {
         font-size: 18px;
