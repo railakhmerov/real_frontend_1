@@ -295,7 +295,7 @@ h2.gallery__title {
    height: 100%;
 }
 .slide-1 {
-   background: url('../../1. Базовый HTML и CSS/other components/slider background 1.jpg');
+   background: url('https://images.unsplash.com/photo-1653974123568-b5eff6d851e1?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
    height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
@@ -303,7 +303,8 @@ h2.gallery__title {
    background-position-y: 100%;
 }
 .slide-2 {
-   background: url('../../1. Базовый HTML и CSS/other components/slider background 2.jpg');
+   background: url('/1. Базовый HTML и CSS/other components/slider background 1.jpg');
+   /* background: url('https://images.unsplash.com/photo-1682204814707-834cf3dce7b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
    height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
@@ -311,7 +312,7 @@ h2.gallery__title {
    background-position-y: 100%;
 }
 .slide-3 {
-   background: url('../../1. Базовый HTML и CSS/other components/slider background 3.jpg');
+   background: url('https://images.unsplash.com/photo-1523575708161-ad0fc2a9b951?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
    height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
@@ -319,7 +320,7 @@ h2.gallery__title {
    background-position-y: 100%;
 }
 .slide-4 {
-   background: url('../../1. Базовый HTML и CSS/other components/slider background 4.jpg');
+   background: url('https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
    height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
