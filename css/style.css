@@ -220,9 +220,11 @@ body {
    background-color: #AD1818;
    border-radius: 5px;
    border: none;
+   cursor: pointer;
 }
 
 section.feedback {
+   margin-bottom: 150px;
 }
 .feedback-wrapper {
    display: flex;
@@ -244,6 +246,7 @@ section.feedback {
    display: flex;
    flex-direction: column;
    width: calc(50% - 20px);
+   margin-bottom: 50px;
 }
 .feedback__column h2 {
    display: inline;
@@ -252,6 +255,9 @@ section.feedback {
 }
 .feedback__column p {
    font-size: 22px;
+}
+.feedback__column-large {
+   width: calc(70% - 20px);
 }
 
 section.project-example {
