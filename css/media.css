@@ -60,7 +60,7 @@
 }
 @media (max-width: 850px) {
     .container {
-        width: 650px;
+        width: 100%;
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
@@ -80,10 +80,25 @@
     .services-card p {
         font-size: 20px;
     }
+    h2.gallery__title {
+        font-size: 20px;
+    }
+    .gallery__controls-btn {
+        position: absolute;
+        top: 50%;
+    }
+    .gallery__controls-btn > .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .gallery__text p {
+        font-size: 25px;
+        line-height: 36.98px;
+    }
 }
 @media (max-width: 768px) {
     .container {
-        width: 568px;
+        width: 100%;
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
@@ -132,7 +147,7 @@
 
 @media (max-width: 576px) {
     .container {
-        width: 476px;
+        width: 100%;
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
@@ -193,10 +208,17 @@
     .feedback__column p {
         font-size: 20px;
     }
+    h2.gallery__title {
+        font-size: 18px;
+    }
+    .gallery__text p {
+        font-size: 22px;
+        line-height: 32px;
+    }
 }
 @media (max-width: 480px) {
     .container {
-        width: 400px;
+        width: 100%;
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
@@ -250,6 +272,12 @@
     }
     .services__btn button {
         padding: 37px 0;
+    }
+    button.gallery__control-prev {
+        font-size: 50px;
+    }
+    button.gallery__control-next {
+        font-size: 50px;
     }
 }
 @media (max-width: 400px) {
@@ -308,8 +336,24 @@
     .services__btn button {
         font-size: 25px;
     }
+    h2.gallery__title {
+        font-size: 18px;
+    }
+    button.gallery__control-prev {
+        font-size: 40px;
+    }
+    button.gallery__control-next {
+        font-size: 40px;
+    }
+    .gallery__text p {
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
 @media (max-width: 320px) {
+    .container {
+        width: 100%;
+    }
     .image-text {
         width: 80%;
         bottom: 25px;
@@ -357,4 +401,17 @@
         padding: 25px 0;
         font-size: 20px;
     }
+    h2.gallery__title {
+        font-size: 18px;
+    }
+    button.gallery__control-prev {
+        font-size: 40px;
+    }
+    button.gallery__control-next {
+        font-size: 40px;
+    }
+    .gallery__text {
+        position: absolute;
+        bottom: 60px;
+     }
 }

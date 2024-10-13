@@ -261,23 +261,99 @@ section.feedback {
    width: calc(70% - 20px);
 }
 
-section.project-example {
+section.gallery-section {
    position: relative;
    margin-bottom: 150px;
 }
-.project-example-img-bc {
+.gallery-wrapper {
+   position: relative;
+}
+h2.gallery__title {
+   position: absolute;
+   top: 67px;
+   font-size: 22px;
+   color: #fff;
+   text-transform: uppercase;
+   z-index: 5;
+}
+.gallery__slides {
+   position: relative;
    height: 717px;
-   background: url('../../1. Базовый HTML и CSS/other components/project-example-img-bc.png');
+}
+.gallery__slide {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+}
+.gallery__slide_active {
+   opacity: 1;
+}
+.slide {
+   height: 100%;
+}
+.slide-1 {
+   background: url('../../1. Базовый HTML и CSS/other components/slider background 1.jpg');
+   height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
-   background-position: 50%; /*картинка всегда по центру*/
+   background-position-x: 50%;
+   background-position-y: 100%;
 }
-.project-example-text p {
+.slide-2 {
+   background: url('../../1. Базовый HTML и CSS/other components/slider background 2.jpg');
+   height: 717px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: 50%;
+   background-position-y: 100%;
+}
+.slide-3 {
+   background: url('../../1. Базовый HTML и CSS/other components/slider background 3.jpg');
+   height: 717px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: 50%;
+   background-position-y: 100%;
+}
+.slide-4 {
+   background: url('../../1. Базовый HTML и CSS/other components/slider background 4.jpg');
+   height: 717px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: 50%;
+   background-position-y: 100%;
+}
+
+.gallery__controls-btn {
+   position: absolute;
+   top: 500px;
+   width: 100%;
+}
+button.gallery__control-prev {
+   margin-right: 25px;
+   color: hsl(0, 0%, 100%);
+   cursor: pointer;
+   border: none;
+   font-size: 60px;
+   background-color: #ffffff00;
+}
+button.gallery__control-next {
+   cursor: pointer;
+   border: none;
+   font-size: 60px;
+   color: hsl(0, 0%, 100%);
+   background-color: #ffffff00;
+}
+.gallery__text {
    position: absolute;
    bottom: 60px;
+}
+.gallery__text p {
    font-size: 30px;
    line-height: 40.98px;
-   letter-spacing: -0.03em;
    color: #fff;
 }
 
