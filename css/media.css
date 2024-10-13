@@ -131,6 +131,9 @@
 }
 
 @media (max-width: 576px) {
+    body {
+        background-color: aqua;
+    }
     .container {
         width: 476px;
         margin: 0 auto;
@@ -195,6 +198,9 @@
     }
 }
 @media (max-width: 480px) {
+    body {
+        background-color: blueviolet;
+    }
     .container {
         width: 400px;
         margin: 0 auto;
@@ -253,6 +259,9 @@
     }
 }
 @media (max-width: 400px) {
+    body {
+        background-color: brown;
+    }
     .container {
         width: 100%;
         margin: 0 auto;
