@@ -303,8 +303,7 @@ h2.gallery__title {
    background-position-y: 100%;
 }
 .slide-2 {
-   background: url("../../1. Базовый HTML и CSS/other components/slider background 1.jpg");
-   /* background: url('https://images.unsplash.com/photo-1682204814707-834cf3dce7b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+   background: url('https://images.unsplash.com/photo-1682204814707-834cf3dce7b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
    height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
