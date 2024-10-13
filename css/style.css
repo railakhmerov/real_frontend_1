@@ -53,8 +53,9 @@ body {
    position: relative;
    height: 500px;
    width: 100%;
-   background: url('../../1. Базовый HTML и CSS/other components/header title img.png');
+   background: url('https://images.unsplash.com/photo-1631651309396-b1b9cc10a66c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
    background-repeat: no-repeat;
+   background-position-y: 40%;
    background-size: cover;
 }
 .image-text {
