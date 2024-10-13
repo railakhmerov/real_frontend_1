@@ -131,7 +131,7 @@
 }
 
 @media (max-width: 576px) {
-    body {
+    .wrapper {
         background-color: aqua;
     }
     .container {
@@ -198,7 +198,7 @@
     }
 }
 @media (max-width: 480px) {
-    body {
+    .wrapper{
         background-color: blueviolet;
     }
     .container {
@@ -259,7 +259,7 @@
     }
 }
 @media (max-width: 400px) {
-    body {
+    .wrapper {
         background-color: brown;
     }
     .container {
