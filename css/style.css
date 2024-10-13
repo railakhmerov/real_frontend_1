@@ -53,7 +53,7 @@ body {
    position: relative;
    height: 500px;
    width: 100%;
-   background: url('https://img.freepik.com/free-photo/modern-space-with-charcoal-accent-wall-sleek-lighting-wooden-ceiling_157027-4131.jpg?t=st=1728656393~exp=1728659993~hmac=e493cc72a6c8f10c0faa3a13b26887515bdef23539321f5773a8a47dece2eeb3&w=1480');
+   background: url('/1. Базовый HTML и CSS/other components/header title img.png');
    background-repeat: no-repeat;
    background-size: cover;
 }
