@@ -359,46 +359,59 @@ button.gallery__control-next {
 
 section.contacts {
    position: relative;
-   margin-bottom: 150px;
 }
-.contacts-text h2::before {
-   margin-bottom: 12px;
+.contact-wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.contact__title {
+   margin-bottom: 74px;
+}
+.contact__title h2 {
+   font-size: 18px;
+   text-transform: uppercase;
+}
+.contacts-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+p.contact-phone {
+   position: relative;
+}
+p.contact-phone > a:before {
    content: '';
-   display: block;
    position: absolute;
-   top: -32px;
+   top: -50%;
+   display: block;
    width: 24px;
    height: 24px;
-   background-image: url('../../1. Базовый HTML и CSS/other components/contact phone.png');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: 50%;
+   background: url('../../1. Базовый HTML и CSS/other components/contact__phone.svg');
 }
-.contacts-text h2 {
-   color: #121212;
-   text-transform: uppercase;
-   font-size: 18px;
-   font-weight: 400;
-   line-height: 62px;
-   letter-spacing: -0.03em;
-   margin-bottom: 32px;
-}
-.phone {
+a.phone {
    color: #121212;
    font-size: 60px;
    font-weight: 400;
    line-height: 60px;
-   letter-spacing: -0.03em;
 }
-.contact-phone {
-   margin-bottom: 30px;
+p.contact-mail {
+   position: relative;
 }
-.mail {
-   color: #121212;
+p.contact-mail > a:before {
+   content: '';
+   position: absolute;
+   top: -50%;
+   display: block;
+   width: 24px;
+   height: 24px;
+   background: url('../../1. Базовый HTML и CSS/other components/contact__mail.svg');
+}
+a.mail {
+   color: #1212126c;
    font-size: 60px;
    font-weight: 400;
    line-height: 60px;
-   letter-spacing: -0.03em;
 }
 .phone:hover {
    color: rgb(150, 150, 150);

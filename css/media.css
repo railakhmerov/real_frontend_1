@@ -57,6 +57,16 @@
     .services-card img {
         height: 270px;
     }
+    a.phone {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+    a.mail {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+    }
 }
 @media (max-width: 850px) {
     .container {
@@ -103,6 +113,9 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    main.main {
+        margin-bottom: 120px;
+    }
     .beginning-title-text h2 {
         font-size: 35px;
     }
@@ -142,6 +155,26 @@
     }
     .feedback__column p {
         font-size: 20px;
+    }
+    p.contact-phone > a:before {
+        content: '';
+        position: absolute;
+        top: -80%;
+    }
+    p.contact-mail > a:before {
+        content: '';
+        position: absolute;
+        top: -80%;
+    }
+    a.phone {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    a.mail {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
     }
 }
 
@@ -198,7 +231,7 @@
     .feedback__row {
         display: flex;
         flex-wrap: wrap;
-        gap: 80px;
+        gap: 40px;
     }
     .feedback__column {
         display: flex;
@@ -215,6 +248,16 @@
         font-size: 22px;
         line-height: 32px;
     }
+    a.phone {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 35px;
+    }
+    a.mail {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 35px;
+    }
 }
 @media (max-width: 480px) {
     .container {
@@ -222,6 +265,9 @@
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    main.main {
+        margin-bottom: 80px;
     }
     .main-beginning-title {
         margin-bottom: 60px;
@@ -273,11 +319,43 @@
     .services__btn button {
         padding: 37px 0;
     }
+    section.feedback {
+        margin-bottom: 80px;
+    }
+    .feedback__row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .feedback__column h2 {
+        font-size: 25px;
+    }
+    .feedback__column p {
+        font-size: 18px;
+    }
+    section.gallery-section {
+        margin-bottom: 80px;
+    }
     button.gallery__control-prev {
         font-size: 50px;
     }
     button.gallery__control-next {
         font-size: 50px;
+    }
+    .feedback__row {
+        gap: 15px;
+    }
+    .contact-wrapper {
+        display: block;
+    }
+    .contacts-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    p.contact-phone {
+        margin-bottom: 58px;
+        position: relative;
     }
 }
 @media (max-width: 400px) {
@@ -345,9 +423,34 @@
     button.gallery__control-next {
         font-size: 40px;
     }
+    .feedback__row {
+        gap: 10px;
+    }
     .gallery__text p {
         font-size: 18px;
         line-height: 24px;
+    }
+    p.contact-phone > a:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: -130%;
+    }
+    p.contact-mail > a:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: -130%;
+    }
+    a.phone {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    a.mail {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 25px;
     }
 }
 @media (max-width: 320px) {
@@ -400,6 +503,15 @@
     .services__btn button {
         padding: 25px 0;
         font-size: 20px;
+    }
+    .feedback__row {
+        gap: 5px;
+    }
+    .feedback__column h2 {
+        font-size: 20px;
+    }
+    .feedback__column p {
+        font-size: 16px;
     }
     h2.gallery__title {
         font-size: 18px;
