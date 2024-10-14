@@ -53,7 +53,7 @@ body {
    position: relative;
    height: 500px;
    width: 100%;
-   background: url('https://images.unsplash.com/photo-1631651309396-b1b9cc10a66c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+   background: url('../other components/header title img.png');
    background-repeat: no-repeat;
    background-position-y: 40%;
    background-size: cover;
@@ -295,7 +295,8 @@ h2.gallery__title {
    height: 100%;
 }
 .slide-1 {
-   background: url('https://images.unsplash.com/photo-1653974123568-b5eff6d851e1?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+   /* background: url('https://images.unsplash.com/photo-1653974123568-b5eff6d851e1?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+   background: url('../other components/slider background 1.jpg');
    height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
@@ -303,24 +304,21 @@ h2.gallery__title {
    background-position-y: 100%;
 }
 .slide-2 {
-   background: url('https://images.unsplash.com/photo-1653972233678-5d1c28d2a99f?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-   height: 717px;
+   background: url('../other components/slider background 2.jpg');   height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
    background-position-x: 50%;
    background-position-y: 100%;
 }
 .slide-3 {
-   background: url('https://images.unsplash.com/photo-1678978866819-306ed8608e7f?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-   height: 717px;
+   background: url('../other components/slider background 3.jpg');   height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
    background-position-x: 50%;
    background-position-y: 100%;
 }
 .slide-4 {
-   background: url('https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-   height: 717px;
+   background: url('../other components/slider background 4.jpg');   height: 717px;
    background-repeat: no-repeat;
    background-size: cover;
    background-position-x: 50%;
