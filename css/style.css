@@ -405,7 +405,7 @@ p.contact-mail > a:before {
    display: block;
    width: 24px;
    height: 24px;
-   background-image: url('../../../1. Базовый HTML и CSS/other components/contact__mail.svg');
+   background-image: url('../../1. Базовый HTML и CSS/other components/contact__mail.svg');
 }
 a.mail {
    color: #1212126c;
