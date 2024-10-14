@@ -387,7 +387,7 @@ p.contact-phone > a:before {
    display: block;
    width: 24px;
    height: 24px;
-   background: url('../../1. Базовый HTML и CSS/other components/contact__phone.svg');
+   background: url('../1. Базовый HTML и CSS/other components/contact__phone.svg');
 }
 a.phone {
    color: #121212;
@@ -405,7 +405,7 @@ p.contact-mail > a:before {
    display: block;
    width: 24px;
    height: 24px;
-   background: url('../../1. Базовый HTML и CSS/other components/contact__mail.svg');
+   background: url('../1. Базовый HTML и CSS/other components/contact__mail.svg');
 }
 a.mail {
    color: #1212126c;
