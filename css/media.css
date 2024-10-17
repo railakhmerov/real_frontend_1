@@ -243,20 +243,30 @@
     .popup__container {
         width: 450px;
     }
+    .popup__title-text {
+        margin-top: 70px;
+    }
     h2.popup__title {
         margin-bottom: 10px;
-        font-size: 35px;
+        font-size: 28px;
         text-align: center;
     }
     p.popup__subtitle {
         font-size: 18px;
         text-align: center;
     }
+    .popup__inputs {
+        margin-bottom: 30px;
+    }
     .input {
         font-size: 20px;
     }
     .input::placeholder {
         font-size: 20px;
+    }
+    .popup__close-btn img {
+        width: 30px;
+        height: 30px;
     }
     .feedback__row {
         display: flex;
@@ -393,6 +403,9 @@
     }
     .input::placeholder {
         font-size: 18px;
+    }
+    .popup__inside-btn {
+        margin-bottom: 60px;
     }
     section.feedback {
         margin-bottom: 80px;
