@@ -20,10 +20,10 @@
                   <img src="other components/Метрика.svg" alt="Логотип">
                </a>
                <div class="header__nav_links">
-                  <a class="header__nav_link header__nav_link_active" href="#about-us">О НАС</a>
-                  <a class="header__nav_link" href="#projects">ПРОЕКТЫ</a>
-                  <a class="header__nav_link" href="#services">УСЛУГИ</a>
-                  <a class="header__nav_link" href="#contacts">КОНТАКТЫ</a>
+                  <a class="header__nav_link header__nav_link_active" href="#about-us">О нас</a>
+                  <a class="header__nav_link" href="#projects">Проекты</a>
+                  <a class="header__nav_link" href="#services">Услуги</a>
+                  <a class="header__nav_link" href="#contacts">Контакты</a>
                </div>
             </nav>
          </div>
@@ -64,7 +64,7 @@
                <div class="project-card">
                   <img src="other components/project-card-img1.png" alt="photo">
                   <div class="project-card-wrapper">
-                     <p>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
+                     <p>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2024</p>
                      <a href="#">Подробнее →</a>
                   </div>
                </div>
@@ -121,12 +121,50 @@
                      </div>
                      <p>Комплектация</p>
                   </div>
-                  <div class="services__btn">
+                  <div class="services__btn js-popup-btn">
                      <button>Заказать услугу</button>
                   </div>
                </div>
             </div>
          </section>
+         <div class="popup js-popup">
+            <div class="popup__content js-popup__content">
+               <div class="popup__container">
+                  <div class="popup__title-text">
+                     <h2 class="popup__title">Заказать услугу</h2>
+                     <p class="popup__subtitle">
+                        Заполните форму, мы свяжемся с вами в течение суток
+                     </p>
+                  </div>
+                  <div class="popup__inputs">
+                     <input 
+                        id="popup__input-form_name" 
+                        class="input input_name" 
+                        type="text"
+                        placeholder="Имя" 
+                        autocomplete="on">
+                     <input 
+                        id="popup__input-form_mail" 
+                        class="input input_mail" 
+                        type="email" 
+                        placeholder="Электронная почта" 
+                        autocomplete="on">
+                     <input 
+                        id="popup__input-form_number" 
+                        class="input input_phone-number" 
+                        type="number" 
+                        placeholder="Номер телефона" 
+                        autocomplete="on">
+                  </div>
+                  <div class="popup__inside-btn">
+                     <button>Отправить</button>
+                  </div>
+                   <div class="popup__close-btn js-popup__close-btn">
+                     <img src="other components/pop-up__close-btn.svg" alt="popup__close-btn">
+                   </div>
+               </div>
+            </div>
+        </div>
          <section class="feedback">
             <div class="container">
                <div class="feedback-wrapper">
@@ -232,12 +270,13 @@
                   <a class="footer__nav_link" href="#contacts">Контакты</a>
                </div>
                <div class="footer__text-wrapper">
-                  <p class="footer_text">Студия дизайна интерьера Метрика — 2023</p>
+                  <p class="footer_text">Студия дизайна интерьера Метрика — 2024</p>
                </div>
             </div>
          </div>
       </footer>
    </div>
    <script src="js/gallery__slider.js"></script>
+   <script src="js/pop-up.js"></script>
 </body>
 </html>
