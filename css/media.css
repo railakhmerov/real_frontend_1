@@ -40,6 +40,10 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    .header__nav_links {
+        display: flex;
+        gap: 40px;
+    }
     .beginning-title-text h2 {
         font-size: 40px;
     }
@@ -125,6 +129,16 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    .header__nav_links {
+        display: none;
+    }
+    .header__burger-btn{
+        position: absolute;
+        right: 15px;
+        z-index: 10;
+        display: block;
+        transition: all 0.3s ease;
+    }
     main.main {
         margin-bottom: 120px;
     }
@@ -196,6 +210,10 @@
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .burger__content {
+        padding: 0 30px;
+        width: 60%;
     }
     .main-beginning-title {
         margin-bottom: 80px;
@@ -464,6 +482,14 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    .burger__content {
+        padding: 0 20px;
+        width: 75%;
+    }
+    .burger__logo-wrapper {
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
     .main-beginning-title {
         margin-bottom: 60px;
     }
@@ -643,5 +669,8 @@
     .gallery__text {
         position: absolute;
         bottom: 60px;
+    }
+    a.footer__nav_link {
+        margin-right: 10px;
     }
 }
